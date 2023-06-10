@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 /**
  * <div id="parent">
  *      <div id="child">
@@ -7,7 +9,7 @@
  */
 
  // To add a sibling say <h2> besides <h1>, pass an array of children in 3rd parameter
-const nestedHead1 = React.createElement("h1", {id: "nestedheading1"}, "I am  h1 level nested heading");
+const nestedHead1 = React.createElement("h1", {id: "nestedheading1"}, "I am  h1 level nested heading1");
 const nestedHead2 = React.createElement("h2", {id: "nestedheading2"}, "I am  h2 level nested heading");
 const headArray = [nestedHead1, nestedHead2];
 const childDiv = React.createElement("div", {id: "childDiv"}, headArray);

@@ -1,0 +1,33 @@
+{
+  "name": "reactjslearnings",
+  "version": "1.0.0",
+  "description": "This is to save react learnings.",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit-Chandra/ReactLearnings.git"
+  },
+  "keywords": [
+    "react",
+    "learnings"
+  ],
+  "author": "Mohit Chandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohit-Chandra/ReactLearnings/issues"
+  },
+  "homepage": "https://github.com/Mohit-Chandra/ReactLearnings#readme",
+  "devDependencies": {
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
