@@ -65,4 +65,21 @@ Create a React root for the supplied container and return the root. The root can
 - React.createElement() returns an object rather than a DOM element because this allows React to perform performance optimizations(such as the Virtual DOM).
 - Virtual DOM is made up of react elements. They seem similar to HTML elements but they are JavaScript objects.
 - Read more about [Virtual DOM here](https://www.geeksforgeeks.org/reactjs-virtual-dom/).
+
+# Parcel
+
+- Parcel is a web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration.
+[Read More About Parcel Here](https://parceljs.org/features/development/).
+> What is a Bundler ?
+
+Module bundlers are the way to organize and combine many files of JavaScript code into one file. A JavaScript bundler can be used when your project becomes too large for a single file or when you're working with libraries that have multiple dependencies.
+
+> Commands for Parcel 
+
+- Dev Build -> npx parcel index.html
+- Prod Build -> npx parcel build index.html
+
+# Notes
+- Donot push node_modules, dist and .parcel_cache to git. They are generated when `npx parcel build index.html` is run on prod server.
+
  
